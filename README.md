@@ -18,6 +18,11 @@ nodejs : https://nodejs.org/en/
 (+pdflatex, rubber éventuellement)
 
 ## Howto rapide 
+
+<pathto/> node build.js -d content-ardui.csv (dwl images)
+puis (resize)
+<pathto/> node build.js -d content-ardui.csv (dwl images)
+puis
 <pathto/> node build.js -g content-ardui.csv
 puis
 <pathto/> node build.js -1 content-ardui.csv
