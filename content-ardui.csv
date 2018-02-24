@@ -1,0 +1,3 @@
+id,type,title,card_type,picture,credits,info,decl,init,usage
+1,actionneur,led,arduino,https://www.kitronik.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/3/5/3590_large_yellow_candle_5mm_led.jpg,MGP, Machin qui s allume, int led=PIN,,
+2,capteur,"bouton poussoir",arduino, https://sdz-upload.s3.amazonaws.com/prod/upload/boutonPoussoir.jpg,MGP,Machin qu'on appuie,,,

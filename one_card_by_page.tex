@@ -1,0 +1,28 @@
+\documentclass[a4paper]{article}
+\usepackage{graphicx}
+\graphicspath{{./}{./deck}}
+  \input{./latex/packages}
+  \input{./latex/tikzcards}
+
+  \geometry{
+    paperheight= 88.9mm, %see \cardheight cm,
+    paperwidth = 63.5mm, %see \cardwidth  cm,
+  }
+
+  \begin{document}%
+  
+    \clearpage%
+    \input{./deck/1_led_front.tex}%
+    \clearpage%
+    \input{./deck/1_led_back.tex}%
+    
+    \clearpage%
+    \input{./deck/2_bouton_poussoir_front.tex}%
+    \clearpage%
+    \input{./deck/2_bouton_poussoir_back.tex}%
+    
+    \clearpage%
+    \input{./deck/0_rules_front.tex}%
+    \clearpage%
+    \input{./deck/0_rules_back.tex}%
+    \end{document}
